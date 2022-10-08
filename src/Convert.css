@@ -1,0 +1,29 @@
+.flexbox {
+  display: flex;
+}
+
+.field {
+  width: fit-content;
+  max-width: 400px;
+  margin: 0;
+  padding-bottom: 0;
+  height: 50px !important;
+}
+
+.options {
+  max-width: fit-content;
+  margin: 15px 0 0 20px;
+}
+
+.selector {
+  display: flex;
+  text-align: center;
+}
+
+select {
+  margin: 10px 0;
+}
+
+.button {
+  margin-top: 20px !important;
+}
