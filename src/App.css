@@ -1,3 +1,18 @@
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    font-family: 'Noto Sans';
+}
+
 .content {
-  
+    margin-top: 200px !important;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px 25px;
 }
