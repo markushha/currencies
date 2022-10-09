@@ -8,12 +8,18 @@ function Convert({
   setAmount,
   fromCurrency,
 }) {
+  const keyHandler = (e) => {
+    if(e.key === 'Enter') {
+      currencySearch();
+    }
+  }
+
   return (
-    <div className="ui form">
+    <div className="ui form" onKeyDown={(e) => keyHandler(e)}>
       <div class="field">
         <label>Enter amount of {fromCurrency} you want to convert</label>
         <input
-          type="text"
+          type="number"
           placeholder="Enter value..."
           onChange={(e) => {
             setAmount(e.target.value);
